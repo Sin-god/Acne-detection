@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  canvas {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+.addCategory__form {
+  width: 50%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+
+  button {
+    background: none;
+    border: solid #02a16c 1px;
+    color: white;
+    width: 350px;
+    height: 35px;
+
+    &:hover {
+      background: black;
+      border: solid black 1px;
+    }
+  }
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.main {
+  padding-top: 50px;
+  background-image: url(../public/bg-img.png);
+  border-image-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
